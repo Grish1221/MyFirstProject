@@ -31,13 +31,75 @@ body{
 }
 #ic{
     border: 5px solid blue;
+    transition: transform .5s ease;
 }
 #hostel{
     border: 5px solid darkcyan;
+    transition: transform .5s ease;
 }
 #tut{
     border: 5px solid blue;
+    transition: transform .5s ease;
 }
 #cafe{
     border: 5px solid darkcyan;
+    transition: transform .5s ease;
+}
+#play{
+    position: absolute;
+    display: flex;
+    color: black;
+    left: 270px;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 840px;
+    top: 450px;
+}
+#icplay{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: solid deepskyblue 4px;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 100px;    
+}
+#tutplay{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: solid deepskyblue 4px;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 100px;    
+}
+#cafeplay{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: solid deepskyblue 4px;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 100px;    
+}
+#hostelplay{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 4px solid deepskyblue;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 100px;    
+}
+#ic:hover{
+    transform: scale(1.5);
+}
+#cafe:hover{
+    transform: scale(1.5);
+}
+#hostel:hover{
+    transform: scale(1.5);
+}
+#tut:hover{
+    transform: scale(1.5);
 }
