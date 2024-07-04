@@ -1,0 +1,45 @@
+#ic{
+    position: absolute;
+    width: 600px;
+    height: 633px;
+    left: 0;
+    top: 0;
+}
+body{
+    background-color: #877556;
+}
+#board{
+    position: absolute;
+    height: 360px;
+    width: 360px;
+    background-color: indianred;
+    left: 830px;
+    top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#board img{
+    width: 118px;
+    height: 118px;
+    border: 1px solid #201d0c;
+}
+#turnsHeading{
+    position: fixed;
+    left: 950px;
+    top: 550px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#heading{
+    position: fixed;
+    left: 600px;
+    top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    background-color: rgba(32, 25, 25, 0.381);
+    width: 840px;
+    text-align: center;
+    color: #201d0c;
+    font-style: italic;
+}

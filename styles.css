@@ -1,0 +1,43 @@
+#bg{
+    position: fixed;
+    width: 1370px;
+    height: 633px;
+}
+body{
+    margin: 0 0;
+}
+#heading{
+    color: blue;
+    position: absolute;
+    top: 95px;
+    left: 400px;
+    font-size: 50px;
+}
+#instruction{
+    top: 180px;
+    left: 470px;
+    color: cadetblue;
+    position: absolute;
+}
+#images{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    height: 150px;
+    width: 800px;
+    left: 290px;
+    top: 280px;
+    justify-content: space-evenly;
+}
+#ic{
+    border: 5px solid blue;
+}
+#hostel{
+    border: 5px solid darkcyan;
+}
+#tut{
+    border: 5px solid blue;
+}
+#cafe{
+    border: 5px solid darkcyan;
+}
